@@ -1,11 +1,11 @@
 import React, {useState} from 'react';
 
-const top = () => {
+const Top = () => {
     return (
-        <div className={'top'}>
+        <div className={'Top'}>
             <span>Добавить</span>
         </div>
     );
 };
 
-export default top;
+export default Top;

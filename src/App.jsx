@@ -2,13 +2,13 @@ import { useState } from "react";
 import { invoke } from "@tauri-apps/api/tauri";
 import "./App.css";
 
-import top from "./components/top.jsx";
+import Top from "./components/Top.jsx";
 
 function App() {
 
   return (
     <div className="container">
-         <top/>
+         <Top/>
     </div>
   );
 }
